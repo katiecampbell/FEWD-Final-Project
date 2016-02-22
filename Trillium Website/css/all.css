@@ -33,3 +33,20 @@ Author: Katie Campbell
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
+#logo {
+  float: left;
+  margin-left: 90px;
+  margin-top: 25px;
+  background-color: #097f73;
+}
+
+#header_bar {
+  background-color: #097f73;
+  height: 100px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}

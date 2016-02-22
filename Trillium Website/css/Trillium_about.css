@@ -1,0 +1,83 @@
+#logo {
+  /*float: left;
+  margin-left: 90px;
+  margin-top: 25px;*/
+  background-color: #097f73;
+  margin: 0 auto;
+}
+
+#logo_bar {
+  background-color: #097f73;
+  height: 100px;
+  width: 33.5%;
+  float: left;
+}
+
+#links_bar {
+	background-color: rgba(9,27,115,.3);
+	height: 100px;
+	width: 66.5%;
+	float: right;
+}
+
+.page_links {
+	color: #097f73;
+	display: inline-block;
+	float: right;
+	font-weight: 400;
+	font-size: 20px;
+	width: 150px;
+	margin-top: 40px;
+	text-decoration: none;
+}
+
+#history_para {
+	float: left;
+	width: 50%;
+	padding: 30px;
+}
+
+#history_para p {
+	color: #686f78;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+#history_para p:first-letter {
+	font-size: 60px;
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 700;
+	color: #43315a;
+	float: left;
+	padding-top: 12px;
+	padding-right: 5px;
+}
+
+#trillium {
+	float: right;
+	background-color: #12FFE7;
+	width: 50%;
+}
+
+#trillium img {
+	display: block;
+	width: 100%;
+}
+
+#trillium p {
+	color: #097f73;
+	font-size: 20px;
+	line-height: 28px;
+	padding: 30px;
+}
+
+#trillium ul li {
+	color: #097f73;
+	font-size: 20px;
+	line-height: 28px;
+	list-style: disc inside none;
+	padding-left: 50px;
+	text-indent: -1.25rem;
+}
+
