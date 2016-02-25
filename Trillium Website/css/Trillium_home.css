@@ -27,13 +27,16 @@ body {
 }
 
 .page_links {
-	color: white;
 	display: inline-block;
 	float: right;
-	font-weight: 400;
-	font-size: 20px;
 	width: 150px;
 	margin-top: 40px;
+}
+
+.page_links a {
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
 }
 
 .service_labels {
@@ -44,8 +47,6 @@ body {
 	width: 250px;
 	margin: 30px 0 20px;
 }
-
-
 
 #tagline_bar h2 {
 	width: 100%;
@@ -60,7 +61,7 @@ body {
 
 #services_icon_bar {
 	background-color: #43315a;
-	height: 500px;
+	height: 450px;
 	border-bottom: 1px solid #ffffff;
 }
 
@@ -71,22 +72,19 @@ body {
 	height: 420px;
 }
 
-#icons{
-	position: absolute;
-/*	margin-bottom: 50px;
-*/	z-index: 1;
-}
-
-.service_icons {
-	display: inline;
-	margin: 0 75px;
-	text-align: center;
-}
-
-#service_descripts p {
+.icons {
 	display: inline-block;
-	height: 275px;
+	width: 250px;
+	text-align: center;
 	vertical-align: top;
+}
+
+.icons img {
+	z-index: 1;
+}
+
+.service_descripts {
+	height: 275px;
 	background-color: rgba(255,255,255,.5);
 	border-radius: 10px;
 	width: 250px;
@@ -95,7 +93,9 @@ body {
 	font-size: 20px;
 	line-height: 30px;
 	padding: 30px 20px;
-	margin-top: 75px;
+	margin-top: -25px;
+	text-align: left;
+	display: none;
 }
 
 footer {

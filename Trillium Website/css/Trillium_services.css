@@ -1,0 +1,105 @@
+#logo {
+  /*float: left;
+  margin-left: 90px;
+  margin-top: 25px;*/
+  background-color: #097f73;
+  margin: 0 auto;
+}
+
+#logo_bar {
+  background-color: #097f73;
+  height: 100px;
+  width: 33.5%;
+  float: left;
+}
+
+#links_bar {
+	background-color: #e7f2f1;
+	height: 100px;
+	width: 66.5%;
+	float: right;
+}
+
+.page_links {
+	display: inline-block;
+	float: right;
+	width: 150px;
+	margin-top: 40px;
+}
+
+.page_links a {
+	color: #097f73;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+#links_bar li:nth-child(3) a {
+	color: #43315a;
+}
+
+#how_we_work_para {
+	float: left;
+	width: 50%;
+	padding: 30px;
+}
+
+#how_we_work_para p {
+	color: #686f78;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+#how_we_work_para p:first-letter {
+	font-size: 60px;
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 700;
+	color: #43315a;
+	float: left;
+	padding-top: 15px;
+	padding-right: 5px;
+}
+
+#workflow {
+	float: right;
+	width: 50%;
+	z-index: 1;
+	margin-top: 30px;
+}
+
+#services_para {
+	background-color: #43315a;
+	width: 100%;
+	height: 600px;
+	margin-top: -425px;
+	border-bottom: 1px solid #ffffff;
+}
+
+#para_container {
+	background-color: #ffffff;
+	border-radius: 10px;
+	margin: 50px;
+	float: left;
+	width: 40%;
+	height: 400px;
+}
+
+.service_text {
+	font-weight: 400;
+	font-size: 24px;
+	color: #43315a;
+	padding: 30px;
+	line-height: 36px;
+}
+
+footer {
+	height: 100px;
+	background-color: #43315a;
+}
+
+footer h3 {
+	color: white;
+	font-weight: 400;
+	margin-left: 50px;
+	padding-top: 30px;
+}
