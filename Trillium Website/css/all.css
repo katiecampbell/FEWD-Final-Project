@@ -50,3 +50,20 @@ body {
 a {
   text-decoration: none;
 }
+
+/******************************************
+/* RESPONSIVE CSS
+/*******************************************/
+
+@media (max-width: 360px) {
+  #logo_bar {
+    width: 100%;
+    float: none;
+  }
+
+  #links_bar {
+    width: 100%;
+    float: none;
+    height: 50px;
+  }
+}

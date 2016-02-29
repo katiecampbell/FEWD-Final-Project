@@ -35,12 +35,12 @@
 
 #links_bar li:nth-child(4) a {
 	color: #43315a;
+	font-weight: 600;
 }
 
 #history_para {
 	float: left;
-	width: 50%;
-	padding: 30px;
+	width: 45%;
 }
 
 #history_para p {
@@ -48,7 +48,8 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 28px;
-	margin-bottom: 40px;
+	padding: 40px;
+	max-width: 600px;
 }
 
 #history_para p:first-letter {
@@ -64,23 +65,22 @@
 #team_header {
 	background-color: #43315a;
 	height: 75px;
-	width: 50%;
-	float: left;
-	margin-top: -100px;
+	width: 100%;
+	margin-left: 0;
 }
 
 #team_header h2 {
 	font-weight: 600;
 	font-size: 34px;
 	color: white;
-	text-align: right;
-	padding: 20px 20px;
+	text-align: left;
+	padding: 20px 0 20px 40px;
 }
 
 #trillium {
 	float: right;
 	background-color: #cee5e3;
-	width: 50%;
+	width: 55%;
 }
 
 #trillium img {
@@ -92,7 +92,7 @@
 	color: #097f73;
 	font-size: 20px;
 	line-height: 28px;
-	padding: 30px 30px 20px 30px;
+	padding: 30px 60px 20px 30px;
 }
 
 #trillium ul li {
@@ -100,7 +100,7 @@
 	font-size: 20px;
 	line-height: 28px;
 	list-style: disc inside none;
-	padding: 0px 30px 20px 50px ;
+	padding: 0px 60px 20px 50px ;
 	text-indent: -1.25rem;
 }
 
@@ -111,6 +111,8 @@
 #team_bios {
 	background-color: #f2f2f2;
 	width: 100%;
+	padding-bottom: 40px;
+	border-bottom: 1px solid gray;
 }
 
 #Sunny {
@@ -118,15 +120,53 @@
 	text-align: center;
 	background-color: #43315a;
 	width: 150px;
+	float: left;
+	margin-left: 40px;
+	margin-top: -150px;
+	z-index: 1;
 }
 
-#Sunny h3 {
+li.bio_pic h3 {
 	padding: 5px 0 10px 0;
 	font-weight: 600;
 	line-height: 20px;
 }
 
-#Sunny h3 span {
+li.bio_pic h3 span {
 	font-weight: 400;
+}
+
+#bios_row1 {
+	padding-top: 40px;
+	margin-left: 40px;
+}
+
+#bios_row2 {
+	padding-top: 40px;
+	margin-left: 250px;
+}
+
+.bio_pic {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	background-color: #43315a;
+	margin-right: 60px;
+}
+
+#bios_row1 li:nth-child(1) {
+	background-color: #097f73;
+}
+
+footer {
+	height: 100px;
+	background-color: #f2f2f2;
+}
+
+footer h3 {
+	color: #686f78;
+	font-weight: 400;
+	margin-left: 50px;
+	padding-top: 30px;
 }
 

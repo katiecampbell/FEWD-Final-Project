@@ -2,20 +2,12 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-/*#header_bar {
-	background-color: #097f73;
-	height: 100px;
-	width: 100%;
-}
-
-#logo {
-	float: left;
-	margin-left: 90px;
-	margin-top: 25px;
-}*/
-
 .myAwesomeCarousel {
 	margin-top: 30px;
+}
+
+.myAwesomeCarousel img {
+	margin: 0 auto;
 }
 
 .carousel-wrapper {
@@ -23,7 +15,7 @@ body {
 }
 
 .slick-prev:before, .slick-next:before { 
-    color:red !important;
+    color:#43315a !important;
 }
 
 .page_links {
@@ -43,8 +35,9 @@ body {
 	color: white;
 	text-align: center;
 	font-size: 28px;
+	font-weight: 600;
 	display: inline-block;
-	width: 250px;
+	width: 240px;
 	margin: 30px 0 20px;
 }
 
@@ -74,7 +67,7 @@ body {
 
 .icons {
 	display: inline-block;
-	width: 250px;
+	width: 240px;
 	text-align: center;
 	vertical-align: top;
 }
@@ -87,7 +80,7 @@ body {
 	height: 275px;
 	background-color: rgba(255,255,255,.5);
 	border-radius: 10px;
-	width: 250px;
+	width: 240px;
 	color: #2e1a47;
 	font-weight: 600;
 	font-size: 20px;

@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	console.log("js loaded");
 	$('.myAwesomeCarousel').slick({
-		autoplay: false,
+		autoplay: true,
 		slidesToShow: 2,
-		
+		dots: true,		
 	});
 });
 

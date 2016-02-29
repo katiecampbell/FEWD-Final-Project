@@ -1,0 +1,102 @@
+#logo {
+  background-color: #097f73;
+  text-align: center;
+}
+
+#logo_bar {
+  background-color: #097f73;
+  height: 100px;
+  width: 33.5%;
+  float: left;
+}
+
+#links_bar {
+	background-color: #e7f2f1;
+	height: 100px;
+	width: 66.5%;
+	float: right;
+}
+
+.page_links {
+	display: inline-block;
+	float: right;
+	width: 150px;
+	margin-top: 40px;
+}
+
+.page_links a {
+	color: #097f73;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+#links_bar li:nth-child(1) a {
+	color: #43315a;
+	font-weight: 600;
+}
+
+#invitation p {
+	display: block;
+	font-size: 22px;
+	color: #686f78;
+	text-align: center;
+	padding-top: 50px;
+	line-height: 30px;
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+#invitation p:first-letter {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 700;
+	color: #43315a;
+}
+
+#invitation {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#form_boxes {
+	text-align: center;
+	border-bottom: 1px solid gray;
+}
+
+form input {
+	width: 325px;
+	height: 40px;
+	border: 1px solid #43315a;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	font-size: 18px;
+}
+
+textarea {
+	width: 325px;
+	border: 1px solid #43315a;
+	font-size: 18px;
+	padding: 10px;
+	color: gray;
+}
+
+#submit_button input {
+	width: 200px;
+	background-color: #43315a;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border-radius: 7px;
+}
+
+footer {
+	height: 100px;
+}
+
+footer h3 {
+	color: #686f78;
+	font-weight: 400;
+	margin-left: 50px;
+	padding-top: 30px;
+}

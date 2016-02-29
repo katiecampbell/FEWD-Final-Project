@@ -20,6 +20,11 @@
 	float: right;
 }
 
+#links_bar li:nth-child(3) a {
+	color: #43315a;
+	font-weight: 600;
+}
+
 .page_links {
 	display: inline-block;
 	float: right;
@@ -90,6 +95,10 @@
 	color: #43315a;
 	padding: 30px;
 	line-height: 36px;
+}
+
+.service_text span {
+	font-weight: 700;
 }
 
 footer {
