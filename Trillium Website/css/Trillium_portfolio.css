@@ -1,0 +1,36 @@
+#logo {
+  background-color: #097f73;
+  text-align: center;
+}
+
+#logo_bar {
+  background-color: #097f73;
+  height: 100px;
+  width: 33.5%;
+  float: left;
+}
+
+#links_bar {
+	background-color: #e7f2f1;
+	height: 100px;
+	width: 66.5%;
+	float: right;
+}
+
+.page_links {
+	display: inline-block;
+	float: right;
+	width: 150px;
+	margin-top: 40px;
+}
+
+.page_links a {
+	color: #097f73;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+#links_bar li:nth-child(2) a {
+	color: #43315a;
+	font-weight: 600;
+}
